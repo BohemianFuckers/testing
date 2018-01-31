@@ -1,0 +1,144 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+body {
+	background-color: white;
+	font-family: "Playfair Display", serif;
+}
+
+
+/*
+################
+               Startseite
+################
+*/
+
+.title {
+	
+	text-align: center;
+	
+	height: 250%;
+	width: 60%;
+	
+	margin: 1% 20% 1%;
+	
+	
+}
+
+#BigC {
+	
+	
+	vertical-align: middle;
+	
+	display: inline;
+	
+	font-size: 2500%;
+	font-weight: bold;
+	
+	-webkit-animation: fadein 4s;
+	
+	margin-right: -21.4%;
+	
+	
+	
+}
+
+#remainder {
+	
+	
+	vertical-align: middle;
+	
+	display: inline;
+	
+	font-size: 600%;
+	
+	-webkit-animation: fadein 6s;
+	
+	
+}
+
+.subtitle {
+	
+	text-align: center;
+	
+	margin: 1% 20% 1%;
+}
+
+.subtitle h3 {
+	
+	font-size: 400%;
+	font-style: italic;
+	
+	color: DarkGrey;
+	
+	-webkit-animation: fadein 10s;
+	
+}
+
+.shop {
+	
+	text-decoration: none;
+	text-align: center;
+	
+	color: black;
+	
+	border: 2px solid black;
+	
+	margin-top: 5%;
+	margin-left: 40%;
+	margin-right: 40%;
+	
+	-webkit-animation: fadein 10s;
+	
+	-webkit-transition: all 0.5s ease-out;
+	
+}
+
+.shop a {
+	text-decoration: none;
+	color: black;
+	text-transform: uppercase;
+	font-size: 150%;
+}
+
+.shop:hover {
+	
+	color: white;
+	background-color: black;
+	
+	-webkit-transition: all 0.1s;
+}
+
+.shop h4:hover {
+	
+	color: white;
+	
+	-webkit-transition: all 0.1s;
+}
+
+/*
+################
+               FirstPage
+################
+*/
+
+#logo {
+	background-image: url("./chronos-logo20.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	
+	padding-top: 3.5%;
+	padding-bottom: 1%;
+	
+	margin: 1% 40%;
+	
+	border-bottom: 1px solid black;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
